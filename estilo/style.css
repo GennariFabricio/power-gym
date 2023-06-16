@@ -367,6 +367,31 @@ footer img{
         margin-left: 0px;
     }
 
+    /*DEPORTISTAS*/
+    .div-contenedor{
+        grid-template-areas: 
+        "h1"
+        "imagen1"
+        "texto1"
+        "imagen3"
+        "texto2"
+        "h2";
+        grid-template-columns: 90%;
+        grid-template-rows: 100px 350px 100px 350px 150px 100px;
+    }
+    .texto3,.imagen2{
+        display: none;
+    }
+    .titulo1{
+        font-size: 1.7rem;
+    }
+    .div-contenedor p{
+        font-weight: normal;
+        font-size: 1rem;
+    }
+    .titulo2{
+        font-size: 1.3rem;
+    }
 }
 
 
