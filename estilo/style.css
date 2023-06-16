@@ -65,13 +65,8 @@ h1{
     margin-right: 40px;
     text-align: center;
 }
-.presentacion h3{
-    
-    font-size: 1.5rem;
-    margin-left: 70px;
-}
+
 .presentacion p{
-    
     padding: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -348,10 +343,53 @@ footer img{
 
 /*MEDIA QUERY CELULAR-------------------------------------------------*/
 @media only screen and (max-width: 500px) {
+    /*INDEX*/
+    h1{
+        font-size: 2rem;
+    }
+    .presentacion p{
+        font-size: 1rem;
+    }
+    .presentacion img{
+        display: none;
+    }
+    .presentacion{
+        flex-direction: column;
+    }
+
+    .servicios{
+        flex-direction: column;
+    }
+    .servicios img{
+        width: 100px;
+    }
+    .servicios h3{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .servicios p{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .deportistas h3{
+        font-size: 1.2rem;
+    }
+    .tarjetas{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .deportistas img{
+        width: 250px;
+    }
+
+
+
+
     /*PROFESIONALES*/
     /*titulo h1*/
     .profesionales-pagina h1{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     
 
