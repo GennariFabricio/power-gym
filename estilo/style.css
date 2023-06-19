@@ -344,6 +344,9 @@ footer img{
 /*MEDIA QUERY CELULAR-------------------------------------------------*/
 @media only screen and (max-width: 500px) {
     /*INDEX*/
+    .navbar-nav{
+        margin-left: 20px;
+    }
     h1{
         font-size: 2rem;
     }
