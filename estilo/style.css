@@ -394,6 +394,9 @@ footer img{
     .profesionales-pagina h1{
         font-size: 1.5rem;
     }
+    .profesional-1, .profesional-2, .profesional-3, .profesional-4, .profesional-5, .profesional-6, .profesional-7{
+        padding: 3px;
+    }
     
 
     /*FOOTER*/
@@ -432,6 +435,12 @@ footer img{
     }
     .titulo2{
         font-size: 1.3rem;
+    }
+
+
+    /*SERVICIOS*/
+    .servicios-pagina h1{
+        font-size: 1.8rem;
     }
 }
 
