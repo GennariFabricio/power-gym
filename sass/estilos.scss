@@ -1,5 +1,8 @@
-
-
+@import "variables.scss";
+html{
+    font-family: $font;
+}
+@import "headeryfooter.scss";
 @import "index.scss";
 @import "servicios.scss";
 @import "profesionales.scss";
