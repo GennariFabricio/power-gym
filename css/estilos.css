@@ -1,0 +1,154 @@
+main img {
+  width: 100%;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 10px;
+}
+.presentacion h1 {
+  color: #E57C23;
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-shadow: -2px 0px 2px rgb(9, 8, 8);
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+.presentacion p {
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+.presentacion img {
+  width: 700px;
+}
+.presentacion div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.servicios {
+  background-color: #E57C23;
+  display: flex;
+}
+.servicios div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicios h3 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+.servicios p {
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+.servicios img {
+  width: 175px;
+  margin-top: 50px;
+}
+
+.deportistas {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.deportistas h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: #E57C23;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  text-shadow: -2px 0px 2px rgb(9, 8, 8);
+  margin-bottom: 5px;
+}
+.deportistas p {
+  text-align: center;
+}
+.deportistas img {
+  width: 300px;
+}
+.deportistas div {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.deportistas article {
+  background-color: #E57C23;
+  padding: 30px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.servicios-pagina h1 {
+  border-radius: 11px 11px 11px 11px;
+  border: 3px solid #E57C23;
+  margin: 10px 100px;
+  padding: 10px;
+  color: #E57C23;
+  text-align: left;
+  font-size: 3rem;
+}
+.servicios-pagina article {
+  margin: 10px auto;
+  padding: 10px;
+}
+.servicios-pagina article img {
+  width: 500px;
+  height: 350px;
+}
+.servicios-pagina article h3 {
+  color: #E57C23;
+  font-size: 2rem;
+}
+
+.profesionales-pagina h1 {
+  border-radius: 11px 11px 11px 11px;
+  border: 3px solid #E57C23;
+  margin: 10px 100px;
+  padding: 10px;
+  color: #E57C23;
+  text-align: left;
+}
+.profesionales-pagina div {
+  border-radius: 11px 11px 11px 11px;
+  border: 3px solid #E57C23;
+  margin: 10px auto;
+  padding: 10px;
+}
+.profesionales-pagina img {
+  width: 400px;
+  height: 250px;
+}
+
+.ubicacion-formulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.ubicacion-formulario h3 {
+  border-radius: 11px 11px 11px 11px;
+  border: 3px solid #E57C23;
+  margin: 10px 100px;
+  padding: 10px;
+  color: #E57C23;
+}
+.ubicacion-formulario .formulario {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

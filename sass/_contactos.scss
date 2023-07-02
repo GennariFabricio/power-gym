@@ -1,0 +1,15 @@
+.ubicacion-formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    h3{
+        border-radius: 11px 11px 11px 11px;
+        border: 3px solid #E57C23;
+        margin: 10px 100px;
+        padding: 10px;
+        color: #E57C23; 
+    }
+    .formulario{
+        margin-top: 10px;
+    }
+}
