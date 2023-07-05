@@ -1,0 +1,113 @@
+@media only screen and (max-width: 500px) {
+    /*INDEX*/
+    header .navbar-nav{
+        margin-left: 50%;
+    }
+    
+    .presentacion{
+        flex-direction: column;
+        p{
+            font-size: 1rem;
+        }
+        h1{
+            font-size: 2rem;
+        }
+        img{
+            display: none;
+        }
+    } 
+    
+    .servicios{
+        flex-direction: column;
+        img{
+            width: 100px;
+        }
+        h3{
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        p{
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    }
+    
+    .deportistas{
+        h3{
+            font-size: 1.2rem;
+        }
+        .tarjetas{
+            flex-direction: column;
+            gap: 10px;
+        }
+        img{
+            width: 250px;
+        }
+    } 
+
+    /*FOOTER*/
+    footer{
+        justify-content: center;
+        img{
+            width: 50px;
+        }
+        div{
+            margin-left: 0px;
+        }
+    }
+     
+    /*PROFESIONALES*/
+    /*titulo h1*/
+    .profesionales-pagina{
+        h1{
+            font-size: 1.5rem;
+        }
+        div{
+            padding: 3px;
+        }
+    } 
+    
+    /*DEPORTISTAS*/
+    .div-contenedor{
+        grid-template-areas: 
+        "h1"
+        "imagen1"
+        "texto1"
+        "imagen3"
+        "texto2"
+        "h2";
+        grid-template-columns: 90%;
+        grid-template-rows: 100px 350px 100px 350px 150px 100px;
+        p{
+            font-weight: normal;
+            font-size: 1rem;
+        }
+    }
+    .texto3,.imagen2{
+        display: none;
+    }
+    .titulo1{
+        font-size: 1.7rem;
+    } 
+    .titulo2{
+        font-size: 1.3rem;
+    }
+
+    /*SERVICIOS*/
+    .servicios-pagina{
+        h1{
+            font-size: 1.8rem;
+        }
+    } 
+
+    /*CONTACTOS*/
+    .ubicacion-formulario{
+        flex-direction: column;
+        iframe{
+            width: 100%;
+        }
+        h3{
+            font-size: 1.5rem;
+        }
+    }
+}

@@ -1,5 +1,5 @@
 header{
-    background-color: #E57C23;
+    background-color:$naranja;
     position: sticky;
     top: 0px;
     img{
@@ -17,7 +17,7 @@ header{
 }
 
 footer{
-    background-color: #E57C23;
+    background-color:$naranja;
     display: flex;
     flex-direction:row;
     justify-content:space-between;
