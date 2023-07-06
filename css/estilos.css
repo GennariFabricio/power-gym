@@ -139,13 +139,18 @@ main img {
 }
 
 .servicios-pagina h1 {
+  border-style: solid;
+  border-color: #E57C23;
+  border-width: 3px;
   border-radius: 11px 11px 11px 11px;
-  border: 3px solid #E57C23;
+  color: #E57C23;
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
   margin: 10px 100px;
   padding: 10px;
-  color: #E57C23;
   text-align: left;
-  font-size: 3rem;
 }
 .servicios-pagina article {
   margin: 10px auto;
@@ -161,16 +166,24 @@ main img {
 }
 
 .profesionales-pagina h1 {
+  border-style: solid;
+  border-color: #E57C23;
+  border-width: 3px;
   border-radius: 11px 11px 11px 11px;
-  border: 3px solid #E57C23;
+  color: #E57C23;
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
   margin: 10px 100px;
   padding: 10px;
-  color: #E57C23;
   text-align: left;
 }
 .profesionales-pagina div {
+  border-style: solid;
+  border-color: #E57C23;
+  border-width: 3px;
   border-radius: 11px 11px 11px 11px;
-  border: 3px solid #E57C23;
   margin: 10px auto;
   padding: 10px;
 }
@@ -185,8 +198,10 @@ main img {
   justify-content: space-evenly;
 }
 .ubicacion-formulario h3 {
+  border-style: solid;
+  border-color: #E57C23;
+  border-width: 3px;
   border-radius: 11px 11px 11px 11px;
-  border: 3px solid #E57C23;
   margin: 10px 100px;
   padding: 10px;
   color: #E57C23;
@@ -216,11 +231,17 @@ main img {
 }
 .div-contenedor .titulo1 {
   grid-area: h1;
+  border-style: solid;
+  border-color: #E57C23;
+  border-width: 3px;
   border-radius: 11px 11px 11px 11px;
-  border: 3px solid #E57C23;
+  color: #E57C23;
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
   margin: 10px 100px;
   padding: 10px;
-  color: #E57C23;
 }
 .div-contenedor .imagen1 {
   grid-area: imagen1;

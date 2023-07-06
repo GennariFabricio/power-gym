@@ -5,3 +5,18 @@
 }
 $naranja:#E57C23;
 $font:'Open Sans', sans-serif;
+
+@mixin bordes ($tipo, $color, $ancho, $radio) {
+    border-style: $tipo;
+    border-color: $color;
+    border-width: $ancho;
+    border-radius: $radio;
+}
+@mixin tituloh1 ($color, $size, $familia, $peso, $estilo){
+    color: $color;
+    font-size: $size;
+    font-family: $familia;
+    font-weight: $peso;
+    font-style: $estilo;
+}
+    

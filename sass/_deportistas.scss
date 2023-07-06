@@ -23,18 +23,17 @@
     }
     .titulo1{
         grid-area: h1;
-        border-radius: 11px 11px 11px 11px;
-        border: 3px solid #E57C23;
+        @include bordes(solid, $naranja, 3px, 11px 11px 11px 11px);
+        @include tituloh1($naranja, 3rem, $font, 700, italic);
         margin: 10px 100px;
         padding: 10px;
-        color: #E57C23;
     }
     .imagen1{
         grid-area: imagen1;
     }
     .texto1{
         grid-area: texto2;
-        color: #E57C23;
+        color: $naranja;
     }
     .imagen2{
         grid-area: imagen2;
@@ -50,8 +49,8 @@
     }
     .titulo2{
         grid-area: h2;
-        color: #E57C23;
-        font-family: 'Open Sans', sans-serif;
+        color: $naranja;
+        font-family: $font;
         font-weight: 700;
         font-style: italic;
         text-shadow: -2px 0px 2px rgba(9,8,8,1);
