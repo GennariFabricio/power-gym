@@ -33,16 +33,7 @@
     }
     
     .deportistas{
-        h3{
-            font-size: 1.2rem;
-        }
-        .tarjetas{
-            flex-direction: column;
-            gap: 10px;
-        }
-        img{
-            width: 250px;
-        }
+        display: none;
     } 
 
     /*FOOTER*/
