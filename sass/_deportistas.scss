@@ -18,7 +18,7 @@
     }
     p{
         font-size: 1.5rem;
-        font-weight:bolder;
+        font-style: italic;
         text-align: center;
     }
     .titulo1{
@@ -33,7 +33,7 @@
     }
     .texto1{
         grid-area: texto2;
-        color: $naranja;
+        
     }
     .imagen2{
         grid-area: imagen2;
@@ -53,6 +53,5 @@
         font-family: $font;
         font-weight: 700;
         font-style: italic;
-        text-shadow: -2px 0px 2px rgba(9,8,8,1);
     }
 }

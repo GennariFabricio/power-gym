@@ -266,7 +266,7 @@ main img {
 }
 .div-contenedor p {
   font-size: 1.5rem;
-  font-weight: bolder;
+  font-style: italic;
   text-align: center;
 }
 .div-contenedor .titulo1 {
@@ -288,7 +288,6 @@ main img {
 }
 .div-contenedor .texto1 {
   grid-area: texto2;
-  color: #E57C23;
 }
 .div-contenedor .imagen2 {
   grid-area: imagen2;
@@ -308,7 +307,6 @@ main img {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-style: italic;
-  text-shadow: -2px 0px 2px rgb(9, 8, 8);
 }
 
 @media only screen and (max-width: 500px) {
@@ -367,7 +365,7 @@ main img {
   .div-contenedor {
     grid-template-areas: "h1" "imagen1" "texto1" "imagen3" "texto2" "h2";
     grid-template-columns: 90%;
-    grid-template-rows: 100px 350px 100px 350px 150px 100px;
+    grid-template-rows: 150px 350px 100px 350px 200px 100px;
   }
   .div-contenedor p {
     font-weight: normal;
@@ -377,7 +375,7 @@ main img {
     display: none;
   }
   .titulo1 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
   .titulo2 {
     font-size: 1.3rem;
